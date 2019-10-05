@@ -14,6 +14,7 @@ yum -y install yum-utils && \
 yum-config-manager --enable remi-php73 && \
 yum -y install httpd mod_ssl php php-mysql && \
 systemctl enable httpd && \
+yum -y update
 yum clean all
 EXPOSE 80/tcp
 EXPOSE 443/tcp
