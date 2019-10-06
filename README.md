@@ -1,3 +1,3 @@
-Docker official images with some additional feature.
+Docker images and script.
 
 https://hub.docker.com/r/nycholasdotcom/
